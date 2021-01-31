@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qU4WzneLJlW+WoKSfVnCxGRr2Jo97ylOGB8ui337f61eXz7WOditCMbz65yB7kh5UupNbi2SEIByvDztTWUH2A==",
+  "success": true,
+  "projectFilePath": "/home/pimpi/Documenti/projs/YFruit/Application.Abstractions/Application.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "/home/pimpi/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/pimpi/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/pimpi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

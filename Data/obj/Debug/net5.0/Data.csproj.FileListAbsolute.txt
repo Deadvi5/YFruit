@@ -1,0 +1,15 @@
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/Data.deps.json
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/Data.dll
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/ref/Data.dll
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/Data.pdb
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/Data.Abstractions.dll
+/home/pimpi/Documenti/projs/YFruit/Data/bin/Debug/net5.0/Data.Abstractions.pdb
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.csprojAssemblyReference.cache
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.AssemblyInfoInputs.cache
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.AssemblyInfo.cs
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.csproj.CoreCompileInputs.cache
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.csproj.CopyComplete
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.dll
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/ref/Data.dll
+/home/pimpi/Documenti/projs/YFruit/Data/obj/Debug/net5.0/Data.pdb

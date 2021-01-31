@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/pimpi/.cache/JetBrains/Rider2020.3/resharper-host/temp/Rider/vAny/CoverageData/_YFruit.-780307930/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=48bdfb2d_002D6f61_002D4fbb_002Dbe26_002D492e712c186f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SubtractOperationTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::03E6048E-946B-496D-A196-5BE0E3F1E8EF::net5.0::Data.Test.SubtractOperationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=699e6b3e_002D320c_002D4d18_002D922a_002Dd1ecfe08fab3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Subtract_Should_Throw_Null_If_Parameter_Is_Null" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/home/pimpi/Documenti/projs/YFruit/Data.Test" Presentation="&amp;lt;99_Tests&amp;gt;\&amp;lt;Data.Test&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

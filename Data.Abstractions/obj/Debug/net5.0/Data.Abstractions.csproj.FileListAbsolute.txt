@@ -1,0 +1,12 @@
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/bin/Debug/net5.0/Data.Abstractions.deps.json
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/bin/Debug/net5.0/Data.Abstractions.dll
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/bin/Debug/net5.0/ref/Data.Abstractions.dll
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/bin/Debug/net5.0/Data.Abstractions.pdb
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.csprojAssemblyReference.cache
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.AssemblyInfoInputs.cache
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.AssemblyInfo.cs
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.csproj.CoreCompileInputs.cache
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.dll
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/ref/Data.Abstractions.dll
+/home/pimpi/Documenti/projs/YFruit/Data.Abstractions/obj/Debug/net5.0/Data.Abstractions.pdb

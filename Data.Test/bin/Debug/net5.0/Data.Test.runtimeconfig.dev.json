@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/pimpi/.dotnet/store/|arch|/|tfm|",
+      "/home/pimpi/.nuget/packages"
+    ]
+  }
+}
