@@ -8,6 +8,7 @@ namespace Application.Mappings
     {
         public WeatherModel GetFromDto(WeatherDto dto)
         {
+            if (dto is null) return null;
             return new WeatherModel
             {
                 Date = dto.Date,
