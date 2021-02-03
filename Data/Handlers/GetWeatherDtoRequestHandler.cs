@@ -10,16 +10,18 @@ using MediatR;
 
 namespace Data.Handlers
 {
-    public class PingRequestHandler : IRequestHandler<GetWatherDtoRequest, IEnumerable<WeatherDto>>
+    public class GetWeatherDtoRequestHandler : IRequestHandler<GetWeatherDtoRequest, IEnumerable<WeatherDto>>
     {
-        public async Task<IEnumerable<WeatherDto>> Handle(GetWatherDtoRequest request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<WeatherDto>> Handle(GetWeatherDtoRequest request, CancellationToken cancellationToken)
         {
-            HttpClientHandler clientHandler = new HttpClientHandler();
-            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
-            
+            var clientHandler = new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true
+            };
+
             var httpClient = new HttpClient(clientHandler) {BaseAddress = new Uri("https://localhost:10001")};
             var apiRequest = new HttpRequestMessage(HttpMethod.Get, "WeatherForecast");
-            using var weatherResponse = await httpClient.SendAsync(apiRequest, cancellationToken);
+            using HttpResponseMessage weatherResponse = await httpClient.SendAsync(apiRequest, cancellationToken);
 
             if (!weatherResponse.IsSuccessStatusCode) throw new ApplicationException("Error in PingRequestHandler");
             return await weatherResponse.Content.ReadFromJsonAsync<IEnumerable<WeatherDto>>(cancellationToken: cancellationToken);

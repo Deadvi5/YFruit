@@ -4,5 +4,5 @@ using MediatR;
 
 namespace Data.Abstractions.Requests
 {
-    public class GetWatherDtoRequest : IRequest<IEnumerable<WeatherDto>> { }
+    public class GetWeatherDtoRequest : IRequest<IEnumerable<WeatherDto>> { }
 }
