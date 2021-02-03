@@ -34,7 +34,7 @@ namespace Application.Test
             //Arrange
             var dto = GetWeathers();
             mediator
-                .Send(Arg.Any<GetWatherDtoRequest>(), Arg.Any<CancellationToken>())
+                .Send(Arg.Any<GetWeatherDtoRequest>(), Arg.Any<CancellationToken>())
                 .Returns(Task.FromResult(dto.AsEnumerable()));
 
             mapping.GetFromDto(Arg.Any<WeatherDto>())
@@ -44,7 +44,7 @@ namespace Application.Test
             var result = await sut.Handle(new GetWeatherApplicationRequest(), new CancellationToken());
 
             //Assert
-            await mediator.Received(1).Send(Arg.Any<GetWatherDtoRequest>(), Arg.Any<CancellationToken>());
+            await mediator.Received(1).Send(Arg.Any<GetWeatherDtoRequest>(), Arg.Any<CancellationToken>());
         }
 
         private static WeatherDto[] GetWeathers()

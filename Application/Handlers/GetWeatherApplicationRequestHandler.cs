@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Application.Abstractions.Mappings;
 using Application.Abstractions.Models;
 using Application.Abstractions.Requests;
+using Data.Abstractions.Models;
 using Data.Abstractions.Requests;
 using MediatR;
 
@@ -22,7 +23,7 @@ namespace Application.Handlers
         }
         public async Task<IEnumerable<WeatherModel>> Handle(GetWeatherApplicationRequest request, CancellationToken cancellationToken)
         {
-            var weathers = await mediator.Send(new GetWatherDtoRequest(), cancellationToken);
+            IEnumerable<WeatherDto> weathers = await mediator.Send(new GetWeatherDtoRequest(), cancellationToken);
             return (from item in weathers select mappings.GetFromDto(item));
         }
     }

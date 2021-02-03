@@ -26,7 +26,7 @@ namespace YFruit
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddMediatR(typeof(Startup), typeof(PingRequestHandler), typeof(GetWeatherApplicationRequestHandler));
+            services.AddMediatR(typeof(Startup), typeof(GetWeatherDtoRequestHandler), typeof(GetWeatherApplicationRequestHandler));
             services.AddSingleton<IOperationData>(new SubtractOperation());
             services.AddSingleton<IOperationData>(new SumOperation());
             services.AddSingleton<IWeatherMappings>(new WeatherMappings());
